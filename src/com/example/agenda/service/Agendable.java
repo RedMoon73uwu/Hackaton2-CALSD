@@ -1,6 +1,4 @@
 package com.example.agenda.service;
-
-<<<<<<< HEAD
 import com.example.agenda.model.Contacto;
 
 public interface Agendable {
@@ -19,7 +17,4 @@ public interface Agendable {
     //Muestra la disponibilidad de la agenda
     int espacioLibres();
 }
-=======
-public interface Agendable {
-}
->>>>>>> c321847f3cf9d01baf050926f750a98f41f779cc
+
