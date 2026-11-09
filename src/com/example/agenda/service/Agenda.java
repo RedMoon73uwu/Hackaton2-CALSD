@@ -1,5 +1,6 @@
 package com.example.agenda.service;
 
+<<<<<<< HEAD
 import com.example.agenda.model.Contacto;
 
 public class Agenda implements Agendable {
@@ -186,3 +187,8 @@ public class Agenda implements Agendable {
         return this.contactos.length;
     }
 }
+=======
+public class Agenda {
+
+}
+>>>>>>> c321847f3cf9d01baf050926f750a98f41f779cc
