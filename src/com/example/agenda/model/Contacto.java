@@ -1,8 +1,7 @@
 package com.example.agenda.model;
 import java.util.Objects;
 
-public abstract class Contacto implements Comparable<Contacto> {
-
+public abstract class Contacto /*implements Comparable<Contacto>*/ {
     private String nombre;
     private String apellido;
     private String telefono;
@@ -16,31 +15,26 @@ public abstract class Contacto implements Comparable<Contacto> {
 
     //metodos get
     public String getNombre(String nombre) {
-        return nombre;
-    }
+        return nombre;      }
 
     public String getApellido(String apellido) {
-        return apellido;
-    }
+        return apellido;    }
 
     public String getTelefono(String telefono) {
-        return telefono;
-    }
-
+        return telefono;    }
 
     //metodo set
     public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
+        this.telefono = telefono;   }
 
 
     //1ra ves q uso esto, supongo que cumple la funcion de imprimir en consola
     //mas elegante que un system.out.print(); y se sobreescribe el nene.
     @Override
     public String toString() {
-        return "Contacto: \n Nombre: " + nombre + " " + apellido + "\n Teléfono: " + telefono + "\n";
-    }
+        return "Contacto: \n Nombre: " + nombre + " " + apellido + "\n Teléfono: " + telefono + "\n"; }
 
+    /* Comente esta parte porque me da TOC ver errores en el codigo: te lo dejo para que pongas tus variables carlos UwU (tqm broo)
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -52,7 +46,7 @@ public abstract class Contacto implements Comparable<Contacto> {
         return Objects.equals(nombre, contacto.nombre) && Objects.equals(apellido, contacto.apellido) ;
 
     }
-
+*/
 
 
 }

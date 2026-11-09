@@ -18,6 +18,7 @@ public class ContactoEmpresarial extends Contacto {
     public String getCargo(String cargo){
         return cargo;           }
 
+
     //los set de empresa y cargo
     public void setEmpresa(String empresa){
         this.empresa = empresa; }
@@ -27,6 +28,10 @@ public class ContactoEmpresarial extends Contacto {
 
     @Override
     public String toString(){
-        return "Empresa: "+empresa+"\nCargo: "+cargo;
-    }
+        return "Empresa: "+empresa+"\nCargo: "+cargo; }
+    /*
+    @Override
+    public boolean equals(Object o){
+        return ;
+    }*/
 }
