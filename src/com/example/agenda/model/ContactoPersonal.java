@@ -17,9 +17,9 @@ public class ContactoPersonal extends Contacto {
         this.fechaDeCumple = fechaDeCumple;     }
 
 
+    //se implementa la logica del metodo toString de la interfaz comparable, de nuevo
     @Override
     public String toString() {
-       return " Cumpleaños: "+fechaDeCumple;
-        //return super.toString();
+        return "[Personal] " + super.toString() + ", Cumpleaños: " + fechaDeCumple;
     }
 }
