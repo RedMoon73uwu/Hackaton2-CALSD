@@ -10,7 +10,7 @@ public class ContactoPersonal extends Contacto {
     }
 
     //la fecha d cumple tiene su propio get-set pa q no chille
-    public String getFechaDeCumple(String fechaDeCumple){
+    public String getFechaDeCumple(){
         return fechaDeCumple;                   }
 
     public void setFechaDeCumple(String fechaDeCumple){
@@ -20,6 +20,6 @@ public class ContactoPersonal extends Contacto {
     //se implementa la logica del metodo toString de la interfaz comparable, de nuevo
     @Override
     public String toString() {
-        return "[Personal] " + super.toString() + "   -Cumpleaños: " + fechaDeCumple;
+        return "[Personal] " + super.toString() + "   -Cumpleaños: " + getFechaDeCumple();
     }
 }

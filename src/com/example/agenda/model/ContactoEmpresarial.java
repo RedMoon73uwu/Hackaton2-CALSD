@@ -12,10 +12,10 @@ public class ContactoEmpresarial extends Contacto {
     }
 
     //los get de empresa y cargo
-    public String getEmpresa(String empresa){
+    public String getEmpresa(){
         return empresa;         }
 
-    public String getCargo(String cargo){
+    public String getCargo(){
         return cargo;           }
 
 
@@ -35,6 +35,6 @@ public class ContactoEmpresarial extends Contacto {
     //que imprima el nombre en dirección de memoria del objeto
     @Override
     public String toString() {
-        return "[Empresarial] " + super.toString() + "   -Empresa: " + empresa + "\n   -Cargo: " + cargo;
+        return "[Empresarial] " + super.toString() + "   -Empresa: " + getEmpresa() + "\n   -Cargo: " + getCargo();
     }
 }
