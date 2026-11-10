@@ -1,0 +1,17 @@
+package com.example.agenda.util;
+
+public class Validador {
+
+
+        private Validador() { }
+
+        public static boolean esValido(String texto) {
+            if (texto == null) {
+                return false;
+            } else {
+                return true;
+            }
+
+
+        }
+}
