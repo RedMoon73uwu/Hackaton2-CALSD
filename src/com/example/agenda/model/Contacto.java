@@ -34,7 +34,7 @@ public abstract class Contacto implements Comparable<Contacto> {
     //te imprima el nombre del objeto en memoria (algo como "Contacto@5f150435" por ejemplo).
     @Override
     public String toString() {
-        return "Contacto: \n Nombre: " + nombre + " " + apellido + "\n Teléfono: " + telefono + "\n"; }
+        return "Contacto: \n   -Nombre: " + nombre + " " + apellido + "\n   -Teléfono: " + telefono + "\n"; }
 
 
     @Override

@@ -20,6 +20,6 @@ public class ContactoPersonal extends Contacto {
     //se implementa la logica del metodo toString de la interfaz comparable, de nuevo
     @Override
     public String toString() {
-        return "[Personal] " + super.toString() + ", Cumpleaños: " + fechaDeCumple;
+        return "[Personal] " + super.toString() + "   -Cumpleaños: " + fechaDeCumple;
     }
 }

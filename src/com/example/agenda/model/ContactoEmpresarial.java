@@ -26,14 +26,15 @@ public class ContactoEmpresarial extends Contacto {
     public void setCargo(String cargo){
         this.cargo = cargo;     }
 
-    @Override
+    /*@Override
     public String toString(){
         return "Empresa: "+empresa+"\nCargo: "+cargo; }
+    */
 
     //se integra la definicion del metodo toString de la interfaz comparable. Para imprimir los datos del objeto sin
     //que imprima el nombre en dirección de memoria del objeto
     @Override
     public String toString() {
-        return "[Empresarial] " + super.toString() + ", Empresa: " + empresa + ", Cargo: " + cargo;
+        return "[Empresarial] " + super.toString() + "   -Empresa: " + empresa + "\n   -Cargo: " + cargo;
     }
 }
