@@ -14,13 +14,13 @@ public abstract class Contacto implements Comparable<Contacto> {
     }
 
     //metodos get
-    public String getNombre(String nombre) {
+    public String getNombre() {
         return nombre;      }
 
-    public String getApellido(String apellido) {
+    public String getApellido() {
         return apellido;    }
 
-    public String getTelefono(String telefono) {
+    public String getTelefono() {
         return telefono;    }
 
     //metodo set
